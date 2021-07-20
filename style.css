@@ -1,7 +1,171 @@
-<style>
-   body{
-       p{
-           color:  
-       }
-   }
-</style>
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.cadetblue-color {
+    color: cadetblue;
+}
+
+#first-p {
+    color: aquamarine;
+}
+
+.content-button {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(orange, #FFA07A);
+    border-radius: 20px;
+    padding: 15px 40px;
+
+    box-shadow: 0px 0px 15px rgb(243, 204, 194);
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.half-width {
+    width: 50%;
+
+    margin-left: 100px;
+
+}
+
+.half-width img {
+    width: 50%;
+}
+
+#about-me-img {
+    width: 30%;
+}
+
+#about-me-text {
+    padding-right: 200px;
+}
+
+#sec2-backimg {
+    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+
+    padding: 50px 0;
+}
+
+.rec-item-container {
+    display: flex;
+    margin-right: 3%;
+    margin-left: 3%;
+
+
+}
+
+.rec-item-width {
+    width: 30%;
+    margin-left: 2%;
+    padding: 40px 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(185, 206, 228);
+
+}
+
+.rec-text {
+    text-align: center;
+}
+
+.p-pad {
+    padding-right: 50px;
+}
+
+#img1 {
+    width: 100%;
+}
+
+#img2 {
+    width: 100%;
+}
+
+#img3 {
+    width: 100%;
+}
+
+.last-sec {
+    background-color: black;
+    padding: 50px 50px;
+}
+
+
+
+.contianer {
+    width: 1140px;
+    margin: auto;
+}
+
+/* contact-area-start  */
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.contact-form {
+    margin-right: 30px;
+}
+
+.contact-form .input-item {
+    margin-bottom: 20px;
+}
+
+.contact-form .input-item input,
+.contact-form .input-item textarea {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    resize: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-form h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #242526;
+    margin-bottom: 12px;
+}
+
+.contact-form p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.contact-area .submit-btn {
+    margin-top: 30px;
+}
+
+.contact-area .submit-btn button {
+    display: inline-block;
+    outline: none;
+    background: #FC6E3C;
+    color: #FFF;
+    font-weight: 700;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.col-half {
+    width: 50%;
+}
+
+/* contact-area-end   */
